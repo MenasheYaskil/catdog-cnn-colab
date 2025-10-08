@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# Virtual env
+venv/
+.env/
+.env
+*.env
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb~
+
+# Data & outputs (keep figures under assets/)
+DataSet/
+data/
+datasets/
+drive/
+outputs/
+checkpoints/
+*.h5
+*.keras
+*.ckpt*
+*.tfrecord
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
